@@ -1,0 +1,23 @@
+.container-ordenacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 56px 0px 32px 0px;
+    font-size: 22px;
+    gap: 2em;
+    font-weight: 400;
+    line-height: 33px;
+    color: var(--cinza-medio);
+    list-style-type: none;
+}
+
+.container-ordenacao__ativo {
+    color: var(--verde-destaque);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.container-ordenacao__cinza {
+    color: var(--cinza-medio);
+    text-decoration: none;
+}
